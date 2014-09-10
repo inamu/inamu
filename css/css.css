@@ -1,0 +1,245 @@
+*{margin:0;padding:0;font-family: "Dosis", "Arial", sans-serif;font-weight:500;font-size: 17px; list-style: none;text-decoration: none;border-image: none;}
+ol li{list-style-type: decimal;}
+img{border:0;}
+.clear{clear: both;}
+.resaltar{color: #339BD7;}
+.borde_blanco{border: 5px solid white;}
+.separador{background:url(img/separador.png) no-repeat;border: none;width:500px;height:105px;text-align: left; margin-top:0px;margin-bottom: 40px;}
+a{color: #339BD7;}
+a:hover{color:orange;}
+h1{font-size: 28px;color:gray;font-weight: 700;text-transform: uppercase;}
+h2{font-size: 24px; color: #339BD7;font-weight: 600;text-transform: uppercase;}
+.h2Right{text-align: right;}
+html{background-image:url(../img/background2.png);background-repeat: repeat-x repeat-y;}
+.wrapper{width: 1020px!important;margin:auto!important;}
+.slider-wrapper {width: 100%; margin: 40px auto;}
+#google_translate_element{float:right;}
+#urgente{width: 100%;height:40px;background-color: orange;margin:20px 0 -40px 0;}
+#urgente p{text-align: center;padding-top: 5px;border-top: 2px solid white;}
+#urgente p a{font-size: 22px;color: white;}
+#urgente p a:hover{opacity: 0.8;}
+
+/* ACCORDION */
+#example2 {width: 100%;color: #000000;line-height: 120%;height: 1100px;}
+#example2 a {display: block;}
+#example2 ul {overflow: hidden;}
+#example2 li {
+  background-color:#F5F5F5;
+  border:1px solid #DDDDDD;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  box-shadow:#FFFFFF 0 1px 0 inset;
+  text-shadow:#FFFFFF 0 1px 0;
+  margin: 10px 0 0 0;
+  padding: 7px 0 0 0;}
+#example2 li a {
+	font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    padding: 5px 0 0 15px;
+    display: block;
+    height: 35px;}
+#example2 li a.closed, #example2 li.firstitem a.closed, #example2 li.lastitem a.closed,#example2 li a.opened, #example2 li.firstitem a.opened {color: #339BD7 !important;}
+#example2 li li {
+    padding: 0px 15px 0 15px;
+    height: 1100px;
+    overflow: auto;}
+#example2 li.lastitem li {margin-bottom: -4px;}
+
+
+/* MENU */
+.menu  li {
+   display: block;
+   float: left; 
+   height: 40px;
+   text-transform: uppercase;
+   font-size: 18px;
+   color: #222;
+   position: relative;}
+.menu li a {
+   display: block;
+   line-height: 28px;
+   padding: 0 14px;
+   margin: 6px 0;
+   text-decoration: none;
+   color: #222;
+   /* animamos el cambio de color de los textos */
+   -webkit-transition: color .2s ease-in-out;
+   -moz-transition: color .2s ease-in-out;
+   -o-transition: color .2s ease-in-out;
+   -ms-transition: color .2s ease-in-out;
+   transition: color .2s ease-in-out;}
+  /* los submenœs */
+.menu li a:hover{color: #339BD7;}  
+.menu ul {
+    border-radius: 0 0 5px 5px;
+    left: 0;
+    opacity: 0; /* no son visibles */
+    position: absolute;
+    top: 40px; /* se ubican debajo del enlace principal */
+    /* animamos su visibildiad */
+    -moz-transition: opacity .25s ease .1s;
+    -webkit-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;} 
+/* son visibes al poner el cursor encima */
+.menu li:hover > ul { opacity: 1;}
+/* cada un ode los items de los submenœs */
+.menu ul li {
+    height: 0; /* no son visibles */
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: #222222;
+    -moz-transition: height .25s ease .1s;
+    -webkit-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;}
+.menu li:hover > ul li { height: 32px; /* los mostramos */overflow: visible;padding-left: 10px;}
+.menu ul li a {
+    border: none;
+    /* border-bottom: 1px solid #111; */
+    /* el ancho depender‡ de los textos a utilizar */
+    height: auto;
+    width: 150px;}
+.submenu{font-size: 13px!important;line-height:15px!important;border: 1px solid #222222;border-radius: 15px;}
+.submenu li a{color: white!important;}
+.submenu li a:hover{color:#339BD7!important;}
+
+
+/* ESTILO DE #HEADER */
+#logo{width: 140px; padding-left:15px;margin-top:20px;float:left;}
+#logo img{width:140px;height:165px;}
+#navMenu{padding-top:30px;float: right;}
+/* TERMINA EL #HEADER */
+
+
+/* EMPIEZA EL #DESTACADO */
+#destacado{margin:0 -10px 0 -10px;/* background-color:#339BD7; */padding: 0;}
+#slider{background-color:#339BD7;padding: 0;margin:0;}
+#circular{margin-top:-70px;}
+#circular p{width:100%;font-size: 16px;color:white;background: url(../img/backNews.jpg)repeat-x;border: 2px solid white;padding: 15px;}
+/* TERMINA EL #DESTACADO */
+
+
+/* EMPIEZA EL #TOPA */
+#topA{margin-top: 50px;}
+.listaol{margin-left: 50px;color:#339BD7;}
+#topALeft,#topARight{float:left;}
+#topARight img:hover{opacity: 0.8;}
+#topALeft ol li{margin-top: 22px;}
+#topALeft,#topBLeft{width: 400px;margin:-20px 30px 0 0;}
+#topARight,#topBRight{margin-top:-23px;}
+#tira2{margin-top: 3px;}
+/* TERMINA EL #TOPA */
+
+
+#main{text-align: left!important;margin-top: -70px;}
+.item-page{text-align: left;}
+
+/* EMPIEZA EL #TOPB */
+#topB{margin-top: -70px;}
+#topBLeft,#topBRight{float: left;margin-top: 3px;}
+#topBRight{width: 550px;}
+#puntosLey li{margin-top:13px; /* margin-left: 30px;*/} 
+/* TERMINA EL #TOPB */
+
+
+/* ARTICULO FUNCIONES */
+#articuloFunciones{margin-top:-50px;}
+#funciones,#blue{float:left;width: 45%;}
+#funciones ol li,#blue ol li{margin-bottom: 20px;margin-top: 10px;}
+.tituloFunciones{font-weight: 600;padding:15px 0;}
+#tituloInamu{font-size: 18px;}
+#blue{color:white;background-color:#339BD7;margin-left: 25px;}
+#blue{padding: 15px 20px 25px 40px;}
+#blue h2{color:white;}
+#blue span{font-weight: 600;}
+/* ARTICULO FUNCIONES */
+
+
+/* EMPIEZA SECCION PRENSA */
+#pagina12,#prensaIlustracion{float: left;}
+#prensaIlustracion{margin:-5px 0 0 10px;}
+#notas{margin-top: -70px;}
+#notas ul li{text-transform: uppercase;list-style: disc;line-height: 45px;margin-left: 45px;font-size: 22px;}
+#listaNotas li a{font-size: 20px;}
+/* TERMINA SECCION PRENSA */
+
+
+/* SECCION MUSICOS CON MANUAL MUSICOS.HTML */
+#musicosManual{width: 100%; margin-top: -60px;text-align: justify;}
+#musicosManual #bajada{color: #339BD7;margin-top:-20px;}
+#musicosManual a img{margin:2px 10px 0 2px;border:4px solid white;width:128px;max-width:120px;max-height: 150px}
+#musicosManual a img{border:4px solid white;width:128px;max-height: 170px;}
+#musicosManual a img:hover {opacity:0.8;}
+/* TERMINA SECCION MUSICOS */
+
+
+.placa{margin-top: -70px;}
+#difusion{margin-top: -100px;}
+#tips{margin-top: -70px;}
+#actividadesDoc{margin-top: -10px;}
+#galeriaViajes img{width: 80px;border-radius: 10px;border: 3px solid white;margin: 2px;}
+
+
+/* SECCION LEGISLACION */
+#normativa {margin-top: -70px;}
+#normativa h3{font-size: 22px;color:#222;margin:30px 0 15px 0;}
+#normativa ul li {line-height: 30px;}
+.numLey{text-transform: uppercase; color: #339BD7;font-size: 19px;margin-right: 15px;}
+.numLey:hover{color: orange;}
+#inamu,#megafono{float: left;}
+#megafono{margin:-140px 0 0 660px;}
+#megafono img{width: 350px;height: 175px;}
+#dnda,#ilustracion{float:left;}
+#aadicapif,#ilustracion2{float:left;}
+/* TERMINA SECCION LEGISLACION */
+
+
+/* BARRA DE LOGOS DE ENTIDADES DE GESTION */
+#entidades {margin-top:-70px;}
+#entidades ul li{float: left;margin:40px 0 0 10px;}
+#entidades ul li a:hover{opacity:0.8;}
+/* TERMINA BARRA DE ENTIDADES DE GESTION */
+
+
+
+/* SECCION CONTACTO */
+#contact_form{width:900px;margin-top: 0px;text-align: left;}
+#name,#email,#phone{width:600px;padding: 5px;border: none;border-bottom: solid 2px #c9c9c9;transition: border 0.3s;}
+.Contact {margin-top:-90px;float: left;}
+#imagenpostal{float: right;opacity: 0.8;margin:-320px 80px 0 0;}
+
+#mc_embed_signup input{height: 18px;}
+#mc-embedded-subscribe{height: 32px!important;margin-top: 10px;}
+#mce-EMAIL,#mce-FNAME,#mce-LNAME {width:300px!important;padding: 5px!important;border: none!important;border-bottom: solid 2px #c9c9c9!important;transition: border 0.3s!important;}
+#mce-EMAIL:focus,#mce-FNAME:focus,#mce-LNAME:focus {border-bottom: solid 2px #969696;}
+
+#mailchimpContacto{float: left;margin-top: -70px}
+#boxFace{float: right;margin-top: 70px;}
+#boxFace2{float: right;margin-right: -40px;}
+/* TERMINA SECCION CONTACTO */
+
+
+/* EMPIEZA FOOTER */
+#foot{margin-top: -60px;}
+#logosOficiales{float: left;margin-top: 10px;}
+#figuras{float: right;}
+#figuras img{width: 80px;height:80px;margin-top:10px;padding-left: 50px;opacity: 0.3;}
+#figuras img:hover{opacity: 0.5;}
+#presidencia,#cultura{float: left;}
+#flaco,#negra,#donvi,#monk{float: left;}
+.imgDesc{width:980px;}
+/* TERMINA FOOTER */
+
+
+#calendar{margin-top: -70px;}
+.rango{font-size: 21px;color: gray;}
+.nombre{font-size: 19px;}
+#musicos{margin-top: 100px;}
+#autoridadesInamu{float: left;}
+#musicNotes{float: right;margin-left: 70px;opacity: 0.4!important;margin-top: -100px;}

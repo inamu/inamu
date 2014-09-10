@@ -1,0 +1,14 @@
+*{font-family: 'Dosis','Arial',sans-serif;margin:0;padding:0;text-transform:uppercase;text-decoration: none;border:none;}
+img{border:0;}
+a{text-decoration: none;}
+.clear{clear: both;}
+#events{width:1024px;height:200px;}
+.event{width:340px;height:200px;float:left;opacity: 0.9;}
+.event:hover{opacity: 1;}
+.badge{float:left; width:87px;height:100px;background-color:#339bd7;border-radius:8px;}
+.dia{font-size:48px;text-align: center;color:white;font-weight:800;padding-top:5px;}
+.mes{font-size:22px;text-align: center;color:#9ddbff;letter-spacing:4px;margin-top:-8px;}
+.info{float:right;width: 245px;height: 200px;margin-left: 4px;}
+.titulo{font-size:22px;color:orange;}
+.horario{font-size:20px;color:#222222;}
+.descripcion{font-size:16px;color:#535353;}
