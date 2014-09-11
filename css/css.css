@@ -229,10 +229,10 @@ html{background-image:url(../img/background2.png);background-repeat: repeat-x re
 #foot{margin-top: -60px;}
 #logosOficiales{float: left;margin-top: 10px;}
 #figuras{float: right;}
-#figuras img{width: 80px;height:80px;margin-top:10px;padding-left: 50px;opacity: 0.3;}
+#figuras img{width: 80px;height:80px;margin-top:10px;padding-left: 30px;opacity: 0.3;}
 #figuras img:hover{opacity: 0.5;}
 #presidencia,#cultura{float: left;}
-#flaco,#negra,#donvi,#monk{float: left;}
+#flaco,#negra,#donvi,#monk,#cerati{float: left;}
 .imgDesc{width:980px;}
 /* TERMINA FOOTER */
 
