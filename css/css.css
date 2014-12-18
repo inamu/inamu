@@ -30,6 +30,7 @@ html{background-image:url(../img/background2.png);background-repeat: repeat-x re
 #urgente2 p{text-align: center;padding-top: 5px;border-top: 2px solid white;border-bottom: 2px solid orange;}
 
 #diaDelMusico{margin-top: -70px;}
+#diaDelMusico p{font-size: 19px;}
 #diaDelMusico ul li{list-style: url(https://cdn4.iconfinder.com/data/icons/web-icons-7/57/arrow_play_music_go_ahead-16.png)!important;margin:13px 0 0 20px;}
 
 
