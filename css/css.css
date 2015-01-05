@@ -16,7 +16,7 @@ html{background-image:url(../img/background2.png);background-repeat: repeat-x re
 .slider-wrapper {width: 100%; margin: 40px auto;}
 #google_translate_element{float:right;}
 
-#urgente0{width: 100%;height:50px;background-color: red;margin:20px 0 -20px 0;}
+#urgente0{width: 100%;height:50px;background-color: orange;margin:20px 0 -20px 0;}
 #urgente0 p{text-align: center;padding-top: 7px;border-top: 2px solid white; text-decoration: blink;}
 #urgente0 p a{font-size: 26px;color: white;}
 
