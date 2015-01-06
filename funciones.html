@@ -15,6 +15,10 @@
 	<meta name="description" content="El Instituto Nacional de la Mœsica (INAMU) es la herramienta de fomento creada por la Ley N¼ 26.801 que permitir‡ mejorar las condiciones en las que se desarrolla la actividad musical en la Argentina.El Instituto Nacional de la Mœsica tiene como figura tŽcnico-legal la de: Ente Pœblico-no Estatal. Esta figura permite la participaci—n de representantes del Estado y tambiŽn de la actividad musical, creando as’ una herramienta inŽdita de protagonismo para el arte musical." />
 	<meta content="INAMU - Instituto Nacional de la Musica" name="Author"/>
     <link rel="stylesheet" href="css/css.css" type="text/css" media="screen"/> 
+    <link rel="stylesheet" href="nivo/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo/demo/style.css" type="text/css" media="screen" />	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>       
 	<title>INSTITUTO NACIONAL DE LA MUSICA | INAMU | REPUBLICA ARGENTINA</title>
 	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
 	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
@@ -30,6 +34,11 @@
 <!-- Go to www.addthis.com/dashboard to customize your tools  -->
  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4d9fcc2d70752d20"></script> 
 <body>
+	<script type="text/javascript">
+	$(window).load(function() {
+	    $('#slider').nivoSlider();
+	});
+	</script>
 	<div class="wrapper">
 		<div id="header">
 			<h1 id="logo">
@@ -83,6 +92,25 @@
 	</div>
 		
 <!-- SLIDER		 -->
+	<div id="destacadoSlide">
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="img/slide/slide6.png"  alt="" data-transition="slideInLeft" />
+                <img src="img/slide/slide5.png"  alt="" data-transition="slideInLeft" />                
+                <img src="img/slide/slide0.png"  alt="" data-transition="slideInLeft" />
+                <img src="img/slide/slide1.png"  alt="" data-transition="slideInLeft" />
+                <img src="img/slide/slide2.png"  alt="" data-transition="slideInLeft" />
+                <img src="img/slide/slide3.png"  alt="" data-transition="slideInLeft"/>
+                <img src="img/slide/slide4.png"  alt="" data-transition="slideInLeft"/>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="nivo/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({pauseTime:10000});
+    });
+    </script>
 
 <!-- FIN SLIDER	 -->
 
