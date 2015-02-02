@@ -16,7 +16,7 @@ html{background-image:url(../img/background2.png);background-repeat: repeat-x re
 .slider-wrapper {width: 100%; margin: 40px auto;}
 #google_translate_element{float:right;}
 
-#urgente0{width: 100%;height:50px;background-color: orange;margin:20px 0 -20px 0;}
+#urgente0{width: 100%;height:50px;background-color: orange;margin:20px 0 -40px 0;}
 #urgente0 p{text-align: center;padding-top: 7px;border-top: 2px solid white; text-decoration: blink;}
 #urgente0 p a{font-size: 26px;color: white;}
 
@@ -31,8 +31,6 @@ html{background-image:url(../img/background2.png);background-repeat: repeat-x re
 #urgente{width: 100%;height:107px;background-color: black;margin:20px 0 -20px 0;}
 #urgente p{text-align: center;padding-top: 5px;border-top: 2px solid white;}
 */
-
-
 
 #noticiasNuevas{width: 100%;height:350px;background:url(http://www.wall321.com/thumbnails/detail/20130515/abstract%20design%20patterns%20the%20shining%20carpet_www.wall321.com_25.jpg) repeat-x;border-top:3px solid orange;border-bottom:4px solid #339BD7;box-shadow: -webkit-box-shadow: 0px 8px 8px 0px rgba(50, 50, 50, 0.8);-moz-box-shadow:    0px 8px 8px 0px rgba(50, 50, 50, 0.8);box-shadow: 0px 8px 8px 0px rgba(50, 50, 50, 0.8);}
 #noticias3enlinea{width: 1020px!important;margin:auto!important;height:320px;}
