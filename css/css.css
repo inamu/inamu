@@ -16,8 +16,10 @@ html{background-image:url(../img/background2.png);background-repeat: repeat-x re
 .slider-wrapper {width: 100%; margin: 40px auto;}
 #google_translate_element{float:right;}
 
+/*
 #urgente0{width: 100%;height:50px;background-color: orange;margin:20px 0 -20px 0;}
 #urgente0 p{text-align: center;padding-top: 7px;border-top: 2px solid white; text-decoration: blink;}
+*/
 /*
 #urgente2{background-image:url(../img/backBannerBienal.jpg);background-repeat: repeat-x repeat-y;}
 #urgente2{width: 100%;max-height:105px;margin:20px 0 -40px 0;}
